@@ -1,0 +1,10 @@
+<%= simple_form_for @story do |form| %>
+
+
+	<%= form.text_field :title %>
+	<%= form.text_area :body %>
+	<%= form.text_field :author %>
+	<%= form.text_field :url %>
+	<%= form.submit %>
+	
+<% end %>
